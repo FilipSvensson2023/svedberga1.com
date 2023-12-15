@@ -1,0 +1,247 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "hide_mobile": false
+      }
+    },
+    "section-slideshow": {
+      "type": "section-slideshow",
+      "blocks": {
+        "slide_1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Varukorg.jpg",
+            "layout": "background",
+            "overlay_opacity": 0,
+            "color_palette": "dark",
+            "button_color_palette": "accent",
+            "text_position": "text-left",
+            "title_size": "h1",
+            "title": "Hur kan vi hjälpa dig?",
+            "text": "",
+            "link_text": "",
+            "link_url": "",
+            "show_link": false,
+            "title_size_mobile": "mobile-size-18"
+          }
+        }
+      },
+      "block_order": [
+        "slide_1"
+      ],
+      "settings": {
+        "height": "s",
+        "width": "boxed",
+        "autoplay": false,
+        "autoplay_seconds": 3,
+        "enable_controls": false,
+        "height_mobile": "m",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "page-service-menu": {
+      "type": "page-service-menu",
+      "settings": {
+        "menu": "main-menu"
+      }
+    },
+    "section-faq": {
+      "type": "section-faq",
+      "blocks": {
+        "faq_1": {
+          "type": "text",
+          "settings": {
+            "faq_question": "När skickas lökar & knölar?",
+            "icon": "none",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "faq_answer": "<p>Lökar & knölar skickas ut med start i mitten av februari. Alla försändelser går till postombud så de inte utsätts för kyla.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "faq_2": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Har ni Klarna eller Swish?",
+            "icon": "none",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "faq_answer": "<p>Ja vi har klarna, men du måste fylla i dina adressuppgifter och gå vidare till kassan för att kunna välja Klarna, Swish eller Svea.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "faq_3": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Kan jag komplettera min order?",
+            "icon": "none",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "faq_answer": "<p>Det går bra att komplettera din order och att det samskickas med en tidigare order. Lägg bara en ny order, när du får orderbekräftelsen svarar du på den att det ska samlevereras så tar vi bort fraktkostnaden manuellt.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        }
+      },
+      "block_order": [
+        "faq_1",
+        "faq_2",
+        "faq_3"
+      ],
+      "settings": {
+        "alignment": "left",
+        "title_size": "h2",
+        "compact": false,
+        "title": "Vanliga frågor",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "section-contact-form": {
+      "type": "section-contact-form",
+      "blocks": {
+        "0fd44d31-da56-43fe-972d-74b438cbb328": {
+          "type": "text",
+          "settings": {
+            "title": "Namn",
+            "placeholder": "Namn",
+            "required": true
+          }
+        },
+        "b8774408-fd65-4d42-865e-40eb5da3e9ee": {
+          "type": "text",
+          "settings": {
+            "title": "Företag",
+            "placeholder": "Företag",
+            "required": false
+          }
+        },
+        "30c68dd5-0daf-4c67-9e87-30fae9f6db2e": {
+          "type": "email",
+          "settings": {
+            "title": "Email",
+            "placeholder": "Email"
+          }
+        },
+        "e70b7df4-5299-4c87-b7a3-7f0ab2f6cd55": {
+          "type": "tel",
+          "settings": {
+            "title": "Telefonnummer",
+            "placeholder": "Telefonnummer",
+            "required": false
+          }
+        },
+        "7f5b90a3-0ea1-466d-a8bb-fb174e340aed": {
+          "type": "textarea",
+          "settings": {
+            "title": "Meddelande",
+            "placeholder": "Meddelande",
+            "required": true
+          }
+        }
+      },
+      "block_order": [
+        "0fd44d31-da56-43fe-972d-74b438cbb328",
+        "b8774408-fd65-4d42-865e-40eb5da3e9ee",
+        "30c68dd5-0daf-4c67-9e87-30fae9f6db2e",
+        "e70b7df4-5299-4c87-b7a3-7f0ab2f6cd55",
+        "7f5b90a3-0ea1-466d-a8bb-fb174e340aed"
+      ],
+      "settings": {
+        "alignment": "left",
+        "title_size": "h2",
+        "title": "Kontaktformulär",
+        "button_color_palette": "accent",
+        "show_placeholder": true,
+        "compact": false,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "page-service-info-blocks": {
+      "type": "page-service-info-blocks",
+      "blocks": {
+        "18ebb386-ad40-4c3f-8386-2c45cb1a6cb2": {
+          "type": "information",
+          "settings": {
+            "color_palette": "light",
+            "title": "Konto",
+            "text": "<p><a href=\"\/account\" title=\"\/account\">Track your last order<\/a>, <a href=\"\/account\" title=\"\/account\">view all orders<\/a> or <a href=\"\/account\/addresses\" title=\"\/account\/addresses\">manage your addresses<\/a>.<\/p>",
+            "show_login_links": true,
+            "show_shop_address": true,
+            "show_maps_url": true,
+            "show_phone_link": true,
+            "show_mail_link": true,
+            "show_whatsapp_link": false
+          }
+        },
+        "1aac02b6-6669-4da9-8318-348245b71f6a": {
+          "type": "information",
+          "settings": {
+            "color_palette": "light",
+            "title": "Customer service",
+            "text": "<p>Give your customers more details about your online store.<\/p>",
+            "show_login_links": false,
+            "show_shop_address": false,
+            "show_maps_url": false,
+            "show_phone_link": true,
+            "show_mail_link": true,
+            "show_whatsapp_link": true
+          }
+        },
+        "e40e00a1-f1c1-46de-84f4-9f8ac1ca29af": {
+          "type": "information",
+          "settings": {
+            "color_palette": "light_2",
+            "title": "Svedberga Plantskola AB",
+            "text": "",
+            "show_login_links": false,
+            "show_shop_address": true,
+            "show_maps_url": true,
+            "show_phone_link": false,
+            "show_mail_link": false,
+            "show_whatsapp_link": false
+          }
+        }
+      },
+      "block_order": [
+        "18ebb386-ad40-4c3f-8386-2c45cb1a6cb2",
+        "1aac02b6-6669-4da9-8318-348245b71f6a",
+        "e40e00a1-f1c1-46de-84f4-9f8ac1ca29af"
+      ],
+      "settings": {
+      }
+    },
+    "section-google-maps": {
+      "type": "section-google-maps",
+      "settings": {
+        "google_maps_iframe": "<iframe width=\"600\" height=\"450\" style=\"border:0\" loading=\"lazy\" allowfullscreen src=\"https:\/\/www.google.com\/maps\/embed\/v1\/place?q=place_id:ChIJodw4-fovUkYRaC3HhtP_zbE&amp;key=AIzaSyCCxszzWGLDgYiDAG5HtWTlRGbmUYA0pPc\"><\/iframe>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "section-slideshow",
+    "page-service-menu",
+    "section-faq",
+    "section-contact-form",
+    "page-service-info-blocks",
+    "section-google-maps"
+  ]
+}

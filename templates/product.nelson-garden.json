@@ -1,0 +1,187 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "hide_mobile": true
+      }
+    },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "c7259cb9-7235-4028-b6df-3a68077fed80": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "layout": "title-top",
+            "title_size": "h1",
+            "show_vendor_brand": true,
+            "show_vendor_name": true,
+            "show_product_rating": true,
+            "share_whatsapp": true,
+            "share_facebook": true,
+            "share_twitter": true,
+            "share_pinterest": true,
+            "share_messenger": true,
+            "share_email": true,
+            "layout_mobile": "title-top"
+          }
+        },
+        "c76aa92f-290b-40db-b59d-e2322e78b221": {
+          "type": "content",
+          "settings": {
+            "enable_tab": false,
+            "collapse": false,
+            "title": "",
+            "icon": "none",
+            "header_image_svg": "",
+            "header_image_width": 20,
+            "text": "<h3>{{ product.vendor }} <strong>{{ product.title }}<\/strong><\/h3><p>{{ product.metafields.custom.beskrivning | metafield_tag }}<\/p>",
+            "page": "",
+            "image_width": 50,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "90724a70-740a-4cc9-984c-764e1d76a5bd": {
+          "type": "codes",
+          "settings": {
+            "show_sku": true,
+            "show_barcode": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax": true
+          }
+        },
+        "buy_button": {
+          "type": "buy_button",
+          "settings": {
+            "show_amount_selection": true,
+            "show_dynamic_buybutton": false,
+            "preorder": false,
+            "preorder_button_text": "Förboka",
+            "preorder_label": "",
+            "preorder_label_color_palette": "light_2",
+            "preorder_show_dynamic_buybutton": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "6908ed9a-a5d9-41fc-a2af-0de0da262106": {
+          "type": "complementary_products",
+          "settings": {
+            "enable_tab": true,
+            "collapse": false,
+            "title": "Andra beställde även.",
+            "icon": "none",
+            "header_image": "shopify:\/\/shop_images\/Nelson_garden-4.png",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "layout": "grid",
+            "number_of_items": 3,
+            "enable_quick_buy_desktop": true,
+            "enable_quick_buy_mobile": true,
+            "enable_quick_buy_drawer": true,
+            "enable_quick_buy_qty_selector": true,
+            "enable_color_picker": false,
+            "enable_quick_buy_compact": true,
+            "products_show_image": true,
+            "products_show_labels": true,
+            "products_show_vendor": true,
+            "products_show_title": true,
+            "products_show_rating": false,
+            "products_show_price": true,
+            "products_show_stock": false
+          }
+        },
+        "51dcd1a5-4536-4b36-991a-fac73c173193": {
+          "type": "shopify:\/\/apps\/google-reviews\/blocks\/carousel-widget-block\/8b378e9e-c56d-47ce-a754-feca5e0caf59",
+          "settings": {
+            "themeId": "light",
+            "autoscroll": true,
+            "showRating": true,
+            "showReviewPhotos": true,
+            "writeReview": false
+          }
+        }
+      },
+      "block_order": [
+        "c7259cb9-7235-4028-b6df-3a68077fed80",
+        "c76aa92f-290b-40db-b59d-e2322e78b221",
+        "90724a70-740a-4cc9-984c-764e1d76a5bd",
+        "price",
+        "buy_button",
+        "6908ed9a-a5d9-41fc-a2af-0de0da262106",
+        "51dcd1a5-4536-4b36-991a-fac73c173193"
+      ],
+      "settings": {
+        "show_thumbs_desktop": true,
+        "show_thumbs_mobile": true,
+        "images_layout": "aside",
+        "show_product_description": true,
+        "product_description_enable_read_more": false,
+        "pros": "",
+        "cons": "",
+        "specifications": "",
+        "product_description_mobile_collapse": false
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "recommended_products_qty": 10,
+        "number_of_items": 6,
+        "text_alignment": "start",
+        "title_size": "h3",
+        "title": "Du kanske också gillar...",
+        "enable_quick_buy_desktop": true,
+        "enable_quick_buy_mobile": true,
+        "enable_quick_buy_drawer": false,
+        "enable_quick_buy_qty_selector": true,
+        "enable_color_picker": false,
+        "enable_quick_buy_compact": false,
+        "spacing_desktop": 50,
+        "spacing_mobile": 0,
+        "mobile_collapse": false
+      }
+    },
+    "reviews": {
+      "type": "product-reviews",
+      "settings": {
+        "text_alignment": "start",
+        "title_size": "h3",
+        "title": "Vad andra tycker om {{ product.title }}",
+        "spacing_desktop": 0,
+        "spacing_mobile": 0,
+        "mobile_collapse": false
+      }
+    },
+    "recently-viewed": {
+      "type": "section-recently-viewed-products",
+      "settings": {
+        "number_of_items": 5,
+        "text_alignment": "left",
+        "title_size": "h3",
+        "title": "Dessa har du tittat på tidigare",
+        "enable_quick_buy_desktop": true,
+        "enable_quick_buy_drawer": false,
+        "enable_quick_buy_mobile": true,
+        "enable_quick_buy_qty_selector": true,
+        "enable_color_picker": false,
+        "enable_quick_buy_compact": false,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "recommendations",
+    "reviews",
+    "recently-viewed"
+  ]
+}

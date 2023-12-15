@@ -1,0 +1,105 @@
+{
+  "type": "header",
+  "name": "t:static_sections.header.name",
+  "sections": {
+    "announcement": {
+      "type": "announcement-bar",
+      "disabled": true,
+      "custom_css": [
+        ".strong,strong,b,#nav > ul > li.active > a,#nav-bar > ul > li.active > a,.l4cn a.email,.l4cn a[href*=\"tel:\"],.submit a,.l4cl .link-btn a,.l4cl .price,.l4ca footer,.l4in li.active a,label.strong,.check label.strong,.countdown.compact .simply-seconds-section,.n6br a.overlay-theme,#nav > ul > li > a.strong,#nav-bar > ul > li > a.strong {font-weight: 700; color: #ffffff;}"
+      ],
+      "settings": {
+        "color_palette": "black",
+        "text": "<h1><strong>BLACK WEEK, UPP TILL 70% RABATT!<\/strong><\/h1>"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "header-block-button-1": {
+          "type": "button",
+          "settings": {
+            "show_mobile": true,
+            "button_menu": "main-menu",
+            "button_color": "dark"
+          }
+        },
+        "8a42768e-1596-4cb5-9fa9-9b6e73299876": {
+          "type": "usp",
+          "settings": {
+            "usp": "<p>Kundsupport Mån-Tor: 09:00-15:00 & Fre 09:00-12:00. Tel: 010-18 88 000<\/p>"
+          }
+        },
+        "header-block-usp-1": {
+          "type": "usp",
+          "disabled": true,
+          "settings": {
+            "usp": "<p><a href=\"https:\/\/b2b.svedberga.com\/products\" title=\"https:\/\/b2b.svedberga.com\/products\"><strong>Ansök om företagskonto idag!<\/strong><\/a><\/p>"
+          }
+        },
+        "4d92bcbe-76ce-4a1c-a9c6-0371a4684ea4": {
+          "type": "usp",
+          "disabled": true,
+          "settings": {
+            "usp": "<p><strong>Vi levererar till hela Skandinavien <\/strong>🇸🇪 🇩🇰 🇳🇴 🇫🇮 🇩🇪<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "header-block-button-1",
+        "8a42768e-1596-4cb5-9fa9-9b6e73299876",
+        "header-block-usp-1",
+        "4d92bcbe-76ce-4a1c-a9c6-0371a4684ea4"
+      ],
+      "settings": {
+        "layout": "layout_1",
+        "header_width": "boxed",
+        "top_bar_color": "dark",
+        "header_color": "white",
+        "search_color": "white",
+        "menubar_color": "light_2",
+        "logo": "shopify:\/\/shop_images\/Svedberga_logga_mork.png",
+        "logo_width": 150,
+        "svg_logo": "",
+        "show_top_bar": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "navbar_menu_item_text": "",
+        "navbar_menu_item_link": "shopify:\/\/blogs\/nyheter\/valkommen-till-svedberga",
+        "enable_usp_slider": false,
+        "enable_usp_slider_arrows": true,
+        "enable_usp_slider_autoplay": true,
+        "usp_slider_autoplay_seconds": 3,
+        "enable_sticky_header": true,
+        "sticky": "sticky-header",
+        "cart_icon": "basket|e962",
+        "cart_icon_color": "accent",
+        "menubar_menu": "menyrad-top",
+        "menu_layout": "mega",
+        "show_dropdown_images": false,
+        "show_dropdown_images_autofill": false,
+        "menubar_center": false,
+        "menubar_divide_evenly": false,
+        "main_menu_items_clickable": true,
+        "menubar_caps": false,
+        "sale_highlight": false,
+        "menu_font": "body",
+        "menu_items_limit": 15,
+        "enable_socials": true,
+        "extra_image": "shopify:\/\/shop_images\/Sok-1.png",
+        "extra_image_width": 160,
+        "extra_image_svg": "",
+        "extra_image_link": "",
+        "disable_online_store": false,
+        "mobile_logo": "shopify:\/\/shop_images\/Svedberga_logo_bla_8649be59-de86-4804-bb3b-3090fc3d7187.png",
+        "logo_width_mobile": 140,
+        "mobile_svg_logo": "",
+        "search_compact_mobile": false
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}

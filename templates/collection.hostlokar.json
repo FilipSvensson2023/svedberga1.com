@@ -1,0 +1,161 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "hide_mobile": false
+      }
+    },
+    "04b9d347-62a2-4ca3-9b35-fcff484719c9": {
+      "type": "section-slideshow",
+      "blocks": {
+        "template--19495877214531__04b9d347-62a2-4ca3-9b35-fcff484719c9-slide-1": {
+          "type": "slide",
+          "settings": {
+            "layout": "background",
+            "overlay_opacity": 0,
+            "color_palette": "light_gradient",
+            "button_color_palette": "accent",
+            "video": "shopify:\/\/files\/videos\/AdobeStock_481048401.mov",
+            "text_position": "text-center",
+            "title_size": "h1",
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/all",
+            "show_link": false,
+            "title_size_mobile": "mobile-size-18"
+          }
+        }
+      },
+      "block_order": [
+        "template--19495877214531__04b9d347-62a2-4ca3-9b35-fcff484719c9-slide-1"
+      ],
+      "settings": {
+        "height": "m",
+        "width": "wide",
+        "autoplay": false,
+        "autoplay_seconds": 3,
+        "enable_controls": false,
+        "height_mobile": "m",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "e1113dbd-7f6c-4159-b428-803aa8877fa7": {
+      "type": "section-collection-list",
+      "settings": {
+        "collections": [
+          "aftonstjarna",
+          "allium",
+          "balkansippa",
+          "blastjarna",
+          "hyacinth",
+          "arum",
+          "indianhyacint",
+          "narcissus",
+          "porslinshyacint",
+          "parlhyacint",
+          "pasklilja",
+          "stjarnhyacint",
+          "krokus",
+          "snoklocka",
+          "colchicum",
+          "tulpan",
+          "vintergack",
+          "varstjarna",
+          "cyclamen",
+          "freesia",
+          "iris",
+          "ixia",
+          "lililum",
+          "honungslok",
+          "ranunkel",
+          "rose-of-jericho",
+          "sparaxis",
+          "bukettlilja",
+          "anemone",
+          "engelsk-klockhyacint",
+          "engelsk-klockhyacint-2"
+        ],
+        "image_ratio": "square",
+        "fill_images": true,
+        "layout": "rows",
+        "number_of_items": 8,
+        "text_alignment": "start",
+        "title_size": "h1",
+        "title": "För plantering på hösten",
+        "link_text": "Se alla",
+        "link_url": "shopify:\/\/collections\/varlokar",
+        "button_color_palette": "dark",
+        "show_link": false,
+        "collection_title_size": "p",
+        "mobile_layout": "slider",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_alignment": "left"
+          }
+        },
+        "423fb7f6-2c97-4420-8211-d45378349d2a": {
+          "type": "description",
+          "settings": {
+            "text_alignment": "left",
+            "enable_read_more": false
+          }
+        },
+        "sorting": {
+          "type": "sorting",
+          "settings": {
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "423fb7f6-2c97-4420-8211-d45378349d2a",
+        "sorting",
+        "product_grid"
+      ],
+      "settings": {
+        "pagination_qty": 48,
+        "pagination_type": "button",
+        "show_amount_of_products_in_collection": true,
+        "productview_type": "grid",
+        "products_per_row": 3,
+        "show_collection_image": false,
+        "enable_filters": true,
+        "enable_menu": true,
+        "filters_menu_alignment": "left",
+        "filter_menu": "",
+        "filter_sticky": false,
+        "filters_show_more_limit": 7,
+        "enable_quick_buy_desktop": true,
+        "enable_quick_buy_mobile": true,
+        "enable_quick_buy_drawer": false,
+        "enable_quick_buy_qty_selector": true,
+        "enable_color_picker": false,
+        "enable_quick_buy_compact": true,
+        "products_per_row_mobile": "2",
+        "filter_mobile_sticky": false
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "04b9d347-62a2-4ca3-9b35-fcff484719c9",
+    "e1113dbd-7f6c-4159-b428-803aa8877fa7",
+    "main-collection"
+  ]
+}

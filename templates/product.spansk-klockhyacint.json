@@ -1,0 +1,306 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "hide_mobile": true
+      }
+    },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "c7259cb9-7235-4028-b6df-3a68077fed80": {
+          "type": "title",
+          "settings": {
+            "layout": "title-top",
+            "title_size": "h1",
+            "show_vendor_brand": true,
+            "show_vendor_name": true,
+            "show_product_rating": true,
+            "share_whatsapp": true,
+            "share_facebook": true,
+            "share_twitter": true,
+            "share_pinterest": true,
+            "share_messenger": true,
+            "share_email": true,
+            "layout_mobile": "title-top"
+          }
+        },
+        "90724a70-740a-4cc9-984c-764e1d76a5bd": {
+          "type": "codes",
+          "settings": {
+            "show_sku": true,
+            "show_barcode": true
+          }
+        },
+        "80e67d89-9369-4ddb-8111-2aa1c36fb500": {
+          "type": "usp",
+          "settings": {
+            "usp": "<p>Leverans i April<\/p>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax": true
+          }
+        },
+        "buy_button": {
+          "type": "buy_button",
+          "settings": {
+            "show_amount_selection": true,
+            "show_dynamic_buybutton": true,
+            "preorder": false,
+            "preorder_button_text": "Pre-order",
+            "preorder_label": "",
+            "preorder_label_color_palette": "light_2",
+            "preorder_show_dynamic_buybutton": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "bb667688-a810-4f9c-8505-cc1dc527d3a6": {
+          "type": "custom_html",
+          "settings": {
+            "custom_html": "<b>Vi levererar till:<\/b> 🇸🇪 🇩🇰 🇳🇴 🇫🇮 🇮🇸 🇩🇪"
+          }
+        },
+        "fc5feb1a-a875-490e-b5e8-ec70f6bc1548": {
+          "type": "content",
+          "settings": {
+            "enable_tab": true,
+            "collapse": true,
+            "title": "",
+            "icon": "speech_bubbles",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "text": "",
+            "page": "spansk-klockhyacint",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "4aa07f85-f08c-406a-9355-2e6636d339df": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "enable_tab": true,
+            "collapse": true,
+            "title": "Nyttig information om Dahliaknölen",
+            "icon": "group",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "text": "",
+            "page": "nyttig-information-om-dahliaknolen",
+            "image": "shopify:\/\/shop_images\/Dahlia-bok.jpg",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "83340038-525b-4a86-8201-56e770a3f54f": {
+          "type": "content",
+          "settings": {
+            "enable_tab": true,
+            "collapse": true,
+            "title": "Odlingsåret Dahlia",
+            "icon": "24_hour_clock",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "text": "",
+            "page": "odlingsaret-dahlia",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "80273256-303c-4d0b-9834-ad8d688927a6": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "enable_tab": true,
+            "collapse": true,
+            "title": "Leveranser till Norge, VOEC",
+            "icon": "none",
+            "header_image": "shopify:\/\/shop_images\/Unknown-1.png",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "text": "",
+            "page": "leveranser-till-norge",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "82ec1053-c4c3-45d2-b188-e9d28019f82a": {
+          "type": "complementary_products",
+          "settings": {
+            "enable_tab": true,
+            "collapse": false,
+            "title": "Andra köpte även",
+            "icon": "notification",
+            "header_image_svg": "",
+            "header_image_width": 25,
+            "layout": "grid",
+            "number_of_items": 3,
+            "enable_quick_buy_desktop": true,
+            "enable_quick_buy_mobile": true,
+            "enable_quick_buy_drawer": true,
+            "enable_quick_buy_qty_selector": true,
+            "enable_color_picker": false,
+            "enable_quick_buy_compact": true,
+            "products_show_image": true,
+            "products_show_labels": true,
+            "products_show_vendor": false,
+            "products_show_title": true,
+            "products_show_rating": true,
+            "products_show_price": true,
+            "products_show_stock": false
+          }
+        },
+        "100e0d69-8965-4acd-a456-21c697fa0217": {
+          "type": "usp",
+          "disabled": true,
+          "settings": {
+            "usp": "<p>Tell a unique detail about this product<\/p>"
+          }
+        },
+        "f5cfa6fc-b878-44fd-9c52-56bee2dbc78c": {
+          "type": "custom_html",
+          "settings": {
+            "custom_html": ""
+          }
+        }
+      },
+      "block_order": [
+        "c7259cb9-7235-4028-b6df-3a68077fed80",
+        "90724a70-740a-4cc9-984c-764e1d76a5bd",
+        "80e67d89-9369-4ddb-8111-2aa1c36fb500",
+        "price",
+        "buy_button",
+        "bb667688-a810-4f9c-8505-cc1dc527d3a6",
+        "fc5feb1a-a875-490e-b5e8-ec70f6bc1548",
+        "4aa07f85-f08c-406a-9355-2e6636d339df",
+        "83340038-525b-4a86-8201-56e770a3f54f",
+        "80273256-303c-4d0b-9834-ad8d688927a6",
+        "82ec1053-c4c3-45d2-b188-e9d28019f82a",
+        "100e0d69-8965-4acd-a456-21c697fa0217",
+        "f5cfa6fc-b878-44fd-9c52-56bee2dbc78c"
+      ],
+      "settings": {
+        "show_thumbs_desktop": true,
+        "show_thumbs_mobile": true,
+        "images_layout": "aside",
+        "show_product_description": true,
+        "product_description_enable_read_more": false,
+        "pros": "",
+        "cons": "",
+        "specifications": "",
+        "product_description_mobile_collapse": false
+      }
+    },
+    "6c2cf2bb-f83e-4049-8ad0-41a8bd307b67": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "template--16668382986497__6c2cf2bb-f83e-4049-8ad0-41a8bd307b67-1677675838d11bdfd2-0": {
+          "type": "title",
+          "settings": {
+            "title": "Nyttig information om Dahliaknölen.",
+            "title_size": "h3"
+          }
+        },
+        "template--16668382986497__6c2cf2bb-f83e-4049-8ad0-41a8bd307b67-1677675838d11bdfd2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Berika dig med information i detalj om hur Dahliaknölen är uppbyggd och dess vitala delar. Här behandlas även hur knölen delas på rätt sätt.<\/p>"
+          }
+        },
+        "template--16668382986497__6c2cf2bb-f83e-4049-8ad0-41a8bd307b67-1677675838d11bdfd2-5": {
+          "type": "buttons",
+          "settings": {
+            "link_text_1": "Läs om Dahliaknölen",
+            "link_url_1": "shopify:\/\/pages\/nyttig-information-om-dahliaknolen",
+            "button_color_palette_1": "dark",
+            "link_text_2": "",
+            "link_url_2": "",
+            "button_color_palette_2": "light",
+            "show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16668382986497__6c2cf2bb-f83e-4049-8ad0-41a8bd307b67-1677675838d11bdfd2-0",
+        "template--16668382986497__6c2cf2bb-f83e-4049-8ad0-41a8bd307b67-1677675838d11bdfd2-1",
+        "template--16668382986497__6c2cf2bb-f83e-4049-8ad0-41a8bd307b67-1677675838d11bdfd2-5"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Dahlia-bok.jpg",
+        "overlay_opacity": 0,
+        "color_palette": "white",
+        "layout": "image-left",
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "recommended_products_qty": 10,
+        "number_of_items": 6,
+        "text_alignment": "start",
+        "title_size": "h3",
+        "title": "Du kanske också gillar...",
+        "enable_quick_buy_desktop": true,
+        "enable_quick_buy_mobile": true,
+        "enable_quick_buy_drawer": false,
+        "enable_quick_buy_qty_selector": true,
+        "enable_color_picker": false,
+        "enable_quick_buy_compact": false,
+        "spacing_desktop": 50,
+        "spacing_mobile": 0,
+        "mobile_collapse": false
+      }
+    },
+    "reviews": {
+      "type": "product-reviews",
+      "settings": {
+        "text_alignment": "start",
+        "title_size": "h3",
+        "title": "Vad andra tycker om {{ product.title }}",
+        "spacing_desktop": 0,
+        "spacing_mobile": 0,
+        "mobile_collapse": false
+      }
+    },
+    "recently-viewed": {
+      "type": "section-recently-viewed-products",
+      "settings": {
+        "number_of_items": 5,
+        "text_alignment": "left",
+        "title_size": "h3",
+        "title": "Dessa har du tittat på tidigare",
+        "enable_quick_buy_desktop": true,
+        "enable_quick_buy_drawer": false,
+        "enable_quick_buy_mobile": true,
+        "enable_quick_buy_qty_selector": true,
+        "enable_color_picker": false,
+        "enable_quick_buy_compact": false,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "6c2cf2bb-f83e-4049-8ad0-41a8bd307b67",
+    "recommendations",
+    "reviews",
+    "recently-viewed"
+  ]
+}

@@ -1,0 +1,117 @@
+<!doctype html>
+{%- assign rtl_languages = 'ae,ar,arc,bcc,bqi,ckb,dv,fa,glk,ha,he,kwh,ks,ku,mzn,nqo,pnb,ps,sd,ug,ur,yi' | split: ',' %}
+<html lang="{{ request.locale.iso_code }}" data-theme="xtra" dir="{% if rtl_languages contains localization.language.iso_code %}rtl{% else %}ltr{% endif %}" class="no-js {% if settings.enable_accessibility_default %}t1ac{% endif %} {% if request.design_mode %}theme-editor{% endif %}">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>{{ page_title }}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}</title>
+		{%- if page_description -%}<meta name="description" content="{{ page_description | escape }}">{%- endif -%}
+		<meta name="theme-color" content="{{ settings.accent_color }}">
+		<meta name="MobileOptimized" content="320">
+		<meta name="HandheldFriendly" content="true">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover, shrink-to-fit=no">
+		<meta name="msapplication-config" content="{{ 'browserconfig.xml' | asset_url }}">
+
+<!-- This Script is the exclusive property of Website Speedy, Copyright © 2023. All rights reserved. -->
+<script type='text/javascript' src="https://websitespeedycdn.b-cdn.net/speedyscripts/ecmrx_3176/ecmrx_3176_1.js"></script>
+
+<script type='text/javascript' src="https://websitespeedycdn.b-cdn.net/speedyscripts/ecmrx_3176/ecmrx_3176_2.js"></script>
+
+<script type='text/javascript' src="https://websitespeedycdn.b-cdn.net/speedyscripts/ecmrx_3176/ecmrx_3176_3.js"></script>
+
+<!-- This Script is the exclusive property of Website Speedy, Copyright © 2023. All rights reserved. -->
+
+		<link rel="canonical" href="{{ canonical_url }}">
+		{% unless settings.heading_font.system? and settings.body_font.system? %}<link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>{%- endunless -%}
+        {% comment %}
+		<link rel="prefetch" as="style" href="{{ 'screen.css' | asset_url }}">
+		<link rel="prefetch" as="style" href="{{ 'theme-xtra.css' | asset_url }}">
+		<link rel="prefetch" as="style" href="{{ 'screen-settings.css' | asset_url }}">
+        {% endcomment %}
+		{% if rtl_languages contains localization.language.iso_code %}
+          <link rel="prefetch" as="style" href="{{ 'rtl.css' | asset_url }}">
+        {% endif %}
+		{% unless settings.heading_font.system? %}
+          <link rel="prefetch" as="font" href="{{ settings.heading_font | font_url }}" type="font/woff2" crossorigin>
+        {% endunless %}
+        {% unless settings.body_font.system? %}
+          <link rel="prefetch" as="font" href="{{ settings.body_font | font_url }}" type="font/woff2" crossorigin>
+        {% endunless %}
+		<link rel="prefetch" as="font" href="{{ 'xtra.woff2' | asset_url }}" crossorigin>
+
+		{{ 'screen.css' | asset_url | stylesheet_tag: media: 'screen' }}
+		{{ 'theme-xtra.css' | asset_url | stylesheet_tag: media: 'screen' }}
+		{{ 'screen-settings.css' | asset_url | stylesheet_tag: media: 'screen' }}
+
+		<noscript><link rel="stylesheet" href="{{ 'async-menu.css' | asset_url }}"></noscript>
+		{%- if template.name == 'blog' or template.name == 'article' -%}
+			<link media="screen" rel="stylesheet" href="{{ 'page-blog.css' | asset_url }}" id="blog-css">
+		{%- endif -%}
+		{%- if template.name == 'cart' -%}
+			<link media="screen" rel="stylesheet" href="{{ 'page-cart.css' | asset_url }}" id="cart-css">
+		{%- endif -%}
+		{%- if template.name == 'collection' or template.name == 'search' -%}
+			{{ 'page-collection.css' | asset_url | stylesheet_tag: preload: true, media: 'screen' }}
+		{%- endif -%}
+		{%- if template.name == '404' -%}
+			<link media="screen" rel="stylesheet" href="{{ 'page-misc.css' | asset_url }}" id="misc-css">
+		{%- endif -%}
+		{%- if template.name == 'product' -%}
+			{{ 'page-product.css' | asset_url | stylesheet_tag: preload: true, media: 'screen' }}
+		{%- endif -%}
+		{%- if settings.enable_accessibility_default %}
+			<link media="screen" rel="stylesheet" href="{{ 'theme-accessible.css' | asset_url }}" id="accessible-mode-css">
+		{%- endif %}
+		{%- if settings.favicon -%}
+    	<link rel="icon" href="{{ settings.favicon | image_url: width: 32, height: 32 }}" type="image/png">
+			<link rel="mask-icon" href="safari-pinned-tab.svg" color="#333333">
+			<link rel="apple-touch-icon" href="apple-touch-icon.png">
+    {%- endif -%}
+		<link rel="manifest" href="{{ 'manifest.json' | asset_url }}">
+		<script>document.documentElement.classList.remove('no-js'); document.documentElement.classList.add('js');</script>
+		{% render 'social-meta-tags' %}
+		{{ content_for_header }}
+		{{ settings.custom_script_for_head }}
+	</head>
+	<body class="template-{{ template.name | handle }}">
+		<div id="root">
+			{%- render 'accessible-nav' -%}
+			{%- sections 'header-group' -%}
+			<main id="content">
+				{{ content_for_layout }}
+				{%- sections 'footer-group' -%}
+			</main>
+			{%- liquid
+				if template.name == 'product'
+					section 'sticky-add-to-cart'
+				endif
+				unless customer
+					render 'mobile-login-dropdown'
+				endunless
+				render 'side-cart-container'
+				render 'quickshop-container'
+				render 'pickup-availability-container'
+
+				if settings.show_newsletterpopup
+					render 'newsletter-popup'
+				endif
+				if settings.show_age_verify_popup
+					render 'age-verify-popup'
+				elsif settings.show_cookiebanner != 'none'
+					render 'cookie-banner'
+				endif
+				if settings.back_to_top_button
+					render 'back-to-top-button'
+				endif
+        render 'upsell-popup'
+			-%}
+		</div>
+		{% render 'global-variables' %}
+		{%- if rtl_languages contains localization.language.iso_code -%}<link media="screen" rel="stylesheet" href="{{ 'rtl.css' | asset_url }}">{%- endif -%}
+		{% render 'color-swatches' %}
+		<script defer src="{{ 'scripts.js' | asset_url }}"></script>
+		<script defer src="{{ 'custom.js' | asset_url }}"></script>
+		{%- if request.design_mode -%}<script defer src="{{ 'backend-listeners.js' | asset_url }}"></script>{%- endif -%}
+		{{ settings.custom_script_for_body }}
+	</body>
+</html>
